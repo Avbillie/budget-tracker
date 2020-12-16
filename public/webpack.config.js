@@ -24,6 +24,7 @@ const config = {
   },
   plugins: [
     new WebpackPwaManifest({
+      fingerprints:false,
       filename: "manifest.json",
       name: "Budget Tracker",
       short_name: "Budget Tracker",

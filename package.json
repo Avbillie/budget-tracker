@@ -1,5 +1,5 @@
 {
-  "name": "budget-app",
+  "name": "budget-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,8 +7,8 @@
     "node": "12.x"
   },
   "scripts": {
-    "build": "cd public && npm run build",
-    "start": "npm run build && node server.js",
+    "build": "cd public && npm install && npm run build",
+    "start": "npm run build && npm install && node server.js",
     "lite-server": "lite-server",
     "install": "cd public && npm install",
     "client": "cd public && npm start"
